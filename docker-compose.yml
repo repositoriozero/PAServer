@@ -1,4 +1,5 @@
 version: '3.8'
+
 services:
   paserver-unigui:
     build: .
@@ -11,6 +12,3 @@ services:
       - '8077:8077'
       - '8082:8082'
       - '8080:8080'
-    volumes:
-      - './opt:/opt/app'
-    tty: true
