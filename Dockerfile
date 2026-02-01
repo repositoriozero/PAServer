@@ -2,6 +2,7 @@ FROM ubuntu:22.04
 
 ENV DEBIAN_FRONTEND=noninteractive
 
+# Dependências necessárias para PAServer + UniGUI
 RUN apt-get update && apt-get install -y \
     libglib2.0-0 \
     libx11-6 \
@@ -13,12 +14,20 @@ RUN apt-get update && apt-get install -y \
     ca-certificates \
     && rm -rf /var/lib/apt/lists/*
 
+# Diretório de trabalho
 WORKDIR /opt
 
+# Runtime do UniGUI (mantém exatamente como você já tem)
 COPY opt /opt
 
-RUN chmod +x /opt/paserver || true
+# PAServer (copiando a pasta inteira)
+COPY PAServer-20.0 /opt/PAServer-20.0
 
-EXPOSE 64211 8077 8080 8082
+# Permissão de execução
+RUN chmod +x /opt/PAServer-20.0/paserver
 
-CMD ["/bin/bash", "-c", "/opt/paserver -password=$PA_SERVER_PASSWORD -port=64211"]
+# Porta do PAServer
+EXPOSE 64211
+
+# Inicializa o PAServer
+CMD ["/bin/bash", "-c", "/opt/PAServer-20.0/paserver -password=$PA_SERVER_PASSWORD -port=64211"]
