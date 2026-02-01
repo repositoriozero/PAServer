@@ -1,0 +1,45 @@
+.unigui_theme {
+		border-left-width: 8px;
+		border-bottom-width: 10px;
+		window-header-height: 30px;
+		tab-header-height: 26px;
+		tab-border-width: 2px;
+		menu-band-height: 26px;
+		panel-header-height: 29px;
+		panel-header-width: 29px;
+		calendar-form-width: 210px;
+		calendar-form-height: 280px;
+		borderless-border-width: 7px;
+}
+
+.x-theme-color {
+  background-color:#f0f0f0;
+  border-color: white #999 #999 white !important;
+  border-width: 0px 1px 0px 1px !important;
+}
+
+.x-grid-row .x-grid-cell-selected {
+  background-color: #b8cfee !important;
+}
+
+.x-form-trigger-btn {
+  background-image: none !important;
+  padding-top: 1px;
+}
+
+.x-form-trigger-font-btn {
+  background-image: none !important;
+  padding-top: 1px;
+  vertical-align: inherit;
+  line-height: inherit;
+}
+
+
+.x-panel-body-default {
+    font-size: 11px;
+}
+
+.x-form-text-default {
+    font-size: 11px;
+}
+

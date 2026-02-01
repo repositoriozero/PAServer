@@ -1,0 +1,24 @@
+FROM ubuntu:22.04
+
+ENV DEBIAN_FRONTEND=noninteractive
+
+# Dependências necessárias
+RUN apt-get update && apt-get install -y \
+    libglib2.0-0 \
+    libx11-6 \
+    libxext6 \
+    libxrender1 \
+    libfontconfig1 \
+    libcurl4 \
+    libssl3 \
+    ca-certificates \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copia runtime unigui
+COPY ./opt /opt
+
+# Porta do paserver e UniGUI
+EXPOSE 64211 8077 8082 8080
+
+# Inicia o PAServer
+CMD ["/opt/paserver", "-password=1532", "-port=64211"]

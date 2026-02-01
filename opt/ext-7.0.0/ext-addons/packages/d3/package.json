@@ -1,0 +1,119 @@
+{
+  "name": "d3",
+  "namespace": "Ext",
+  "format": "1",
+  "version": "7.0.0",
+  "compatVersion": "6.1.0",
+  "creator": "Sencha",
+  "summary": "Sencha D3",
+  "detailedDescription": "Sencha D3 is a package that allows to visualize Ext stores via a set of components built on top of D3, as well as creating custom visualizations.",
+  "type": "code",
+  "requires": [
+    "core"
+  ],
+  "signatures": [
+    {
+      "name": "Sencha",
+      "uuid": "1d6b0d9c-3333-4e65-885f-5b07a1fc3198",
+      "created": "2019-08-22T20:49:35Z",
+      "algorithm": "SHA1withRSA",
+      "nonce": "fbc0nd6qCdQ\u003d",
+      "signature": "qrCZi5RaWZo3ffw3nvnMu2sfhYVT1HZxytOdWKT73jGts7tbsGB628Bz3MII8psUzeXLvXP/0DUeaO3E6l9dEMDwe8aSUln5blHaF/z97NyuQYTY9TsSkvyqphNPDGFu+7CparQIEAFucduK4rydvMH/Mpz8BnSV9zBQ6z3bFTm8NFs+nEwS23DUvPQ+M30uTwbIJucZEOyZOfOtnbqtc6HWRDzIJLQy/SWaV66ipBbyCVtntp6EUKn+Cjq1Rvf/CuG/fJOGbkKY1R8mGeopDf/8qisNGLZjTYUewzkeIAcmtuDr3VZEmh2CUEJEggjekeS3dcqIb91WqxIRvkLMiw\u003d\u003d"
+    }
+  ],
+  "js": [
+    {
+      "path": "${build.environment}/d3.js",
+      "exclude": [
+        "ie10m"
+      ],
+      "requiresSdk": false,
+      "compress": false
+    }
+  ],
+  "slicer": {
+    "js": [
+      {
+        "path": "${package.dir}/sass/example/custom.js",
+        "isWidgetManifest": true
+      }
+    ]
+  },
+  "builds": {
+    "triton": {
+      "lib": "${package.dir}/d3.js",
+      "toolkit": "classic",
+      "theme": "theme-triton"
+    },
+    "neptune": {
+      "lib": "${package.dir}/d3.js",
+      "toolkit": "classic",
+      "theme": "theme-neptune"
+    },
+    "crisp": {
+      "lib": "${package.dir}/d3.js",
+      "toolkit": "classic",
+      "theme": "theme-crisp"
+    },
+    "classic": {
+      "lib": "${package.dir}/d3.js",
+      "toolkit": "classic",
+      "theme": "theme-classic"
+    },
+    "classic-material": {
+      "lib": "${package.dir}/d3.js",
+      "toolkit": "classic",
+      "theme": "theme-material"
+    },
+    "modern-triton": {
+      "lib": "${package.dir}/d3.js",
+      "toolkit": "modern",
+      "theme": "theme-triton"
+    },
+    "modern-neptune": {
+      "lib": "${package.dir}/d3.js",
+      "toolkit": "modern",
+      "theme": "theme-neptune"
+    },
+    "ios": {
+      "lib": "${package.dir}/d3.js",
+      "toolkit": "modern",
+      "theme": "theme-ios"
+    },
+    "material": {
+      "lib": "${package.dir}/d3.js",
+      "toolkit": "modern",
+      "theme": "theme-material"
+    }
+  },
+  "framework": "ext",
+  "sass": {
+    "namespace": "Ext",
+    "etc": [
+      "${package.dir}/sass/etc/all.scss",
+      "${package.dir}/${toolkit.name}/sass/etc/all.scss"
+    ],
+    "var": [
+      "${package.dir}/sass/var",
+      "${package.dir}/${toolkit.name}/sass/var"
+    ],
+    "src": [
+      "${package.dir}/sass/src",
+      "${package.dir}/${toolkit.name}/sass/src"
+    ]
+  },
+  "output": {
+    "base": "${package.dir}/build/${toolkit.name}/${build.id}",
+    "js": "..",
+    "sass": ""
+  },
+  "classpath": [
+    "${package.lib}",
+    "${package.dir}/src",
+    "${package.dir}/${toolkit.name}/src"
+  ],
+  "overrides": [
+    "${package.dir}/overrides",
+    "${package.dir}/${toolkit.name}/overrides"
+  ]
+}
