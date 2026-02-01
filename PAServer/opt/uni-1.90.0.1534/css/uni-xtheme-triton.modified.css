@@ -1,0 +1,103 @@
+.unigui_theme {
+		border-left-width: 2px;
+		border-bottom-width: 2px;
+		borderless-border-width: 2px;
+		window-header-height: 44px;
+		tab-header-height: 45px;
+		panel-header-height: 44px;
+		panel-header-width: 44px;
+		menu-band-height: 32px;
+		calendar-form-width: 330px;
+		calendar-form-height: 380px;
+		theme-borderless: true;
+		default-edit-height: 24px;
+}
+
+.x-theme-color {
+  background-color: #5fa2dd;
+  border-color: white #eee #eee	 white !important;
+}
+
+.x-uni-tabsheet {
+	border-top-style: none !important;
+}
+
+.x-grid-row .x-grid-cell-selected {
+  background-color: #b8cfee !important;
+}
+
+.x-btn-default-small .x-btn-inner {
+  font:normal 12px tahoma, arial, helvetica, sans-serif;
+}
+.x-btn-default-medium .x-btn-inner {
+  font:normal 12px tahoma, arial, helvetica, sans-serif;
+}
+.x-btn-default-large .x-btn-inner {
+  font:normal 12px tahoma, arial, helvetica, sans-serif;
+}
+
+.x-btn-inner-default-toolbar-small {
+  font:normal 12px tahoma, arial, helvetica, sans-serif;
+}
+.x-btn-inner-default-toolbar-medium {
+  font:normal 12px tahoma, arial, helvetica, sans-serif;
+}
+.x-btn-inner-default-toolbar-large {
+  font:normal 12px tahoma, arial, helvetica, sans-serif;
+}
+
+.x-form-text-default {
+  min-height: 22px !important;
+	padding: 0px 0px 0px 5px !important;
+}
+
+.x-form-trigger-default {
+	font: 16px FontAwesome !important;
+}
+
+.x-btn-default-toolbar-small {
+  padding: 0px !important;
+  font:normal 12px tahoma, arial, helvetica, sans-serif !important;
+}
+
+.x-btn-default-small {
+  padding: 0px !important;
+}
+
+.x-fieldset-header-default {
+  padding: 0px !important;
+}
+
+.x-fieldset-header-text {
+    font: 400 12px'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif !important;
+    padding: 0px !important;
+}
+
+.x-form-trigger-btn {
+  background-image: none !important;
+  padding-top: 3px;
+}
+
+.x-form-trigger-default.x-form-trigger-btn:before {
+  content: "" !important;
+}
+
+.x-grid-cell-inner{
+    padding: 2px 5px 2px 5px !important;
+}
+
+.x-form-spinner-default {
+	height: 11px !important;
+}
+
+.x-form-spinner-up-default {
+    font: 14px/1 ExtJS !important;
+}
+
+.x-form-spinner-down-default {
+    font: 14px/1 ExtJS !important;
+}
+
+.x-uni-checkcolumn-text {
+	padding-left: 16px;
+}

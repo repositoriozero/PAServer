@@ -1,0 +1,61 @@
+.unigui_theme {
+		border-left-width: 5px;
+		border-bottom-width: 5px;
+		window-header-height: 36px;
+		tab-header-height: 38px;
+		panel-header-height: 36px;
+		panel-header-width: 36px;
+		menu-band-height: 36px;
+		calendar-form-width: 226px;
+		calendar-form-height: 294px;
+		theme-borderless: true;
+		default-edit-height: 24px;
+}
+
+.x-btn-default-small .x-btn-inner {
+  font:normal 12px tahoma, arial, helvetica, sans-serif;
+}
+.x-btn-default-medium .x-btn-inner {
+  font:normal 12px tahoma, arial, helvetica, sans-serif;
+}
+.x-btn-default-large .x-btn-inner {
+  font:normal 12px tahoma, arial, helvetica, sans-serif;
+}
+.x-btn-inner-default-toolbar-small {
+  font:normal 12px tahoma, arial, helvetica, sans-serif;
+}
+.x-btn-inner-default-toolbar-medium {
+  font:normal 12px tahoma, arial, helvetica, sans-serif;
+}
+.x-btn-inner-default-toolbar-large {
+  font:normal 12px tahoma, arial, helvetica, sans-serif;
+}
+
+.x-theme-color {
+  background-color:#3892d3;
+  border-color: white #eee #eee	 white !important;
+}
+
+.x-grid-row .x-grid-cell-selected {
+  background-color: #c1ddf1 !important;
+}
+
+.x-form-trigger-btn {
+  background-image: none !important;
+  padding-top: 3px;
+}
+
+.x-form-trigger-font-btn {
+  background-image: none !important;
+  padding-top: 3px;
+  vertical-align: inherit;
+  line-height: inherit;
+}
+
+.x-uni-checkcolumn-text {
+	padding-left: 14px;
+}
+
+.x-form-textarea {
+	min-height: 10px !important;
+}

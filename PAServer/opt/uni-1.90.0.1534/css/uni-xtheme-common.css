@@ -1,0 +1,67 @@
+.x-form-text, textarea.x-form-field {
+   /* background-image:none !important;*/
+}
+
+.x-tab-icon-el.x-fa,
+.x-tree-icon.x-fa {
+	width: 20px !important;
+}
+
+.x-form-text-default {
+/*    font:normal 11px tahoma, arial, helvetica, sans-serif;*/
+}
+
+.x-form-cb-label {
+/*     font:normal 11px tahoma, arial, helvetica, sans-serif; */
+}
+
+.x-form-unitext {
+  height: 100% !important;
+/*  font:normal 11px tahoma, arial, helvetica, sans-serif;*/
+}
+
+.x-fieldset {
+	padding-top:0px;
+}
+
+.ext-ie .x-fieldset legend {
+	margin-bottom:0px;
+}
+
+.x-panel-white {
+  background-color: #fff !important; 
+}
+
+.x-panel-none {
+  background-color: none !important; 
+}
+
+.x-grid-row-summary {
+/* 	font: normal 11px/15px tahoma, arial, verdana, sans-serif; */
+}
+
+.x-grid-cell-inner {
+	text-overflow: clip !important;
+}
+
+.x-column-header-text {
+	text-overflow: clip !important;
+}
+
+.x-btn-inner {
+	text-overflow: clip !important;
+}
+
+.x-panel-notop {
+  border-top-width: 0 !important;
+}
+
+.x-uni-checkcolumn-absolute {
+	position:absolute;
+/*	vertical-align:middle; */
+}
+
+.x-uni-checkcolumn-text {
+	padding-left: 14px;
+}
+

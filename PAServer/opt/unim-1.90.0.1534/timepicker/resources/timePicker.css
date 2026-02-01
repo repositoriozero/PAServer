@@ -1,0 +1,367 @@
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeTitle.scss:2 */
+.x-timetitle .time-title {
+    display: flex;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 48px;
+    margin: 0 2px;
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeTitle.scss:9 */
+.x-timetitle .time-subtitle {
+    margin: 0 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeTitle.scss:15 */
+.x-timetitle .x-body-el {
+    justify-content: flex-end;
+    width: 100%;
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeTitle.scss:19 */
+.x-timetitle .time-hour,
+.x-timetitle .time-minute,
+.x-timetitle .time-am,
+.x-timetitle .time-pm {
+    cursor: pointer;
+    color: #ccc;
+    /*color: rgba(255, 255, 255, 0.7);*/
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeTitle.scss:22 */
+.x-timetitle .time-hour.x-active,
+.x-timetitle .time-minute.x-active,
+.x-timetitle .time-am.x-active,
+.x-timetitle .time-pm.x-active {
+    color: #aaa;
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:9 */
+.x-timeview {
+    position: relative;
+    width: 240px;
+    height: 240px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: #eee;
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:16 */
+.x-timeview .circle-fake {
+    position: absolute;
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    cursor: move;
+    cursor: grab;
+    cursor: -webkit-grab;
+    background-color: transparent;
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:28 */
+.time-circularView {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:35 */
+.time-cell {
+    position: absolute;
+    width: 50%;
+    top: calc(50% - 16px);
+    left: 50%;
+    text-align: right;
+    -webkit-transform-origin: left center;
+    transform-origin: left center;
+    font-size: 13px;
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:43 */
+.time-cell span {
+    display: inline-block;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.87);
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    margin-right: 8px;
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:55 */
+.time-cell.cell-selected span {
+    color: #fff;
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:64 */
+.cell-rotate-5 {
+    -webkit-transform: rotate(-75deg);
+    transform: rotate(-75deg);
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:66 */
+.cell-rotate-5 span {
+    -webkit-transform: rotate(75deg);
+    transform: rotate(75deg);
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:64 */
+.cell-rotate-10 {
+    -webkit-transform: rotate(-60deg);
+    transform: rotate(-60deg);
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:66 */
+.cell-rotate-10 span {
+    -webkit-transform: rotate(60deg);
+    transform: rotate(60deg);
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:64 */
+.cell-rotate-15 {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:66 */
+.cell-rotate-15 span {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:64 */
+.cell-rotate-20 {
+    -webkit-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:66 */
+.cell-rotate-20 span {
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:64 */
+.cell-rotate-25 {
+    -webkit-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:66 */
+.cell-rotate-25 span {
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:64 */
+.cell-rotate-30 {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:66 */
+.cell-rotate-30 span {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:64 */
+.cell-rotate-35 {
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:66 */
+.cell-rotate-35 span {
+    -webkit-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:64 */
+.cell-rotate-40 {
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:66 */
+.cell-rotate-40 span {
+    -webkit-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:64 */
+.cell-rotate-45 {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:66 */
+.cell-rotate-45 span {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:64 */
+.cell-rotate-50 {
+    -webkit-transform: rotate(60deg);
+    transform: rotate(60deg);
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:66 */
+.cell-rotate-50 span {
+    -webkit-transform: rotate(-60deg);
+    transform: rotate(-60deg);
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:64 */
+.cell-rotate-55 {
+    -webkit-transform: rotate(75deg);
+    transform: rotate(75deg);
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:66 */
+.cell-rotate-55 span {
+    -webkit-transform: rotate(-75deg);
+    transform: rotate(-75deg);
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:64 */
+.cell-rotate-60 {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:66 */
+.cell-rotate-60 span {
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:64 */
+.cell-rotate-65 {
+    -webkit-transform: rotate(105deg);
+    transform: rotate(105deg);
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:66 */
+.cell-rotate-65 span {
+    -webkit-transform: rotate(-105deg);
+    transform: rotate(-105deg);
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:64 */
+.cell-rotate-70 {
+    -webkit-transform: rotate(120deg);
+    transform: rotate(120deg);
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:66 */
+.cell-rotate-70 span {
+    -webkit-transform: rotate(-120deg);
+    transform: rotate(-120deg);
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:64 */
+.cell-rotate-75 {
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:66 */
+.cell-rotate-75 span {
+    -webkit-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:64 */
+.cell-rotate-80 {
+    -webkit-transform: rotate(150deg);
+    transform: rotate(150deg);
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:66 */
+.cell-rotate-80 span {
+    -webkit-transform: rotate(-150deg);
+    transform: rotate(-150deg);
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:64 */
+.cell-rotate-85 {
+    -webkit-transform: rotate(165deg);
+    transform: rotate(165deg);
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:66 */
+.cell-rotate-85 span {
+    -webkit-transform: rotate(-165deg);
+    transform: rotate(-165deg);
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:64 */
+.cell-rotate-90 {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:66 */
+.cell-rotate-90 span {
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:64 */
+.cell-rotate-95 {
+    -webkit-transform: rotate(195deg);
+    transform: rotate(195deg);
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:66 */
+.cell-rotate-95 span {
+    -webkit-transform: rotate(-195deg);
+    transform: rotate(-195deg);
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:64 */
+.cell-rotate-100 {
+    -webkit-transform: rotate(210deg);
+    transform: rotate(210deg);
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:66 */
+.cell-rotate-100 span {
+    -webkit-transform: rotate(-210deg);
+    transform: rotate(-210deg);
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:64 */
+.cell-rotate-105 {
+    -webkit-transform: rotate(225deg);
+    transform: rotate(225deg);
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:66 */
+.cell-rotate-105 span {
+    -webkit-transform: rotate(-225deg);
+    transform: rotate(-225deg);
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:64 */
+.cell-rotate-110 {
+    -webkit-transform: rotate(240deg);
+    transform: rotate(240deg);
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:66 */
+.cell-rotate-110 span {
+    -webkit-transform: rotate(-240deg);
+    transform: rotate(-240deg);
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:64 */
+.cell-rotate-115 {
+    -webkit-transform: rotate(255deg);
+    transform: rotate(255deg);
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:66 */
+.cell-rotate-115 span {
+    -webkit-transform: rotate(-255deg);
+    transform: rotate(-255deg);
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:64 */
+.cell-rotate-120 {
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:66 */
+.cell-rotate-120 span {
+    -webkit-transform: rotate(-270deg);
+    transform: rotate(-270deg);
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:72 */
+.time-needle {
+    position: absolute;
+    left: 50%;
+    top: calc(50% - 16px);
+    width: 50%;
+    font-size: 0;
+    -webkit-transform-origin: left center;
+    transform-origin: left center;
+    transition: 0.3s cubic-bezier(0.42, 0, 0.58, 1);
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:80 */
+.time-needle span {
+    display: inline-block;
+    background-color: #5fa2dd;
+    vertical-align: middle;
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:85 */
+.time-needle .dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:92 */
+.time-needle .line {
+    height: 2px;
+    width: calc(100% - 48px);
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:96 */
+.time-needle .circle {
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+}
+/* C:/Framework/uniGUI/unim/timepicker/packages/local/MX/src/panel/TimeView.scss:102 */
+.time-needle.needle-quick {
+    transition: none;
+}

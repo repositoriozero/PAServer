@@ -1,0 +1,139 @@
+.ext-el-mask {
+/*    z-index: 20000 !important;*/
+}
+
+.x-panel {
+    font:normal 11px tahoma, arial, helvetica, sans-serif;
+}
+
+.x-mask-overlay {
+  position: absolute;
+  left:     0;
+  top:      0;
+  width:    100%;
+  height:   100%;
+  background-image: url(../images/loading.gif) !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  text-align: center;
+}
+
+#loading-mask {
+  position: absolute;
+  left:     0;
+  top:      0;
+  width:    100%;
+  height:   100%;
+  z-index:  20000;
+  background-color: white;
+}
+
+#loading {
+  position: absolute;
+  left:     50%;
+  top:      50%;
+  padding:  2px;
+  z-index:  20001;
+  height:   auto;
+  margin:   -35px 0 0 -30px;
+}
+
+#loading .loading-indicator {
+  background: url(../images/loading.gif) no-repeat;
+  color:      #555;
+  font:       bold 13px tahoma,arial,helvetica;
+  padding:    16px 40px;
+  margin:     0;
+  text-align: center;
+  height:     auto;
+}
+
+.x-tree-node-icon-blank {
+	height: 1px !important;
+	width: 1px !important;
+  display: inline-block;
+}
+
+.x-uni-grid-cell-normal .x-grid-cell-inner {
+	white-space: normal;
+}
+
+.x-uni-btn-icon {
+	margin: 0px !important; 
+}
+
+.x-uni-btn-icon-48x48 {
+  height: 48px !important;
+  width: 48px !important;
+}
+
+.x-uni-btn-icon-64x64 {
+  height: 64px !important;
+  width: 64px !important;
+}
+
+.x-uni-action-cls {
+	margin-right: 4px;
+}
+
+.x-uni-icon-contain {
+	background-size: contain;
+}
+  
+.x-unitoolbar-btn-icon { 
+	background-position: center  !important;
+	width: auto !important;
+}
+
+.x-column-header-align-right .x-column-header-text {
+    margin-right: 0px !important;
+}
+
+/* = disabled nodes
+----------------------------------------------- */
+.dvp-tree-node-disabled .x-grid-cell {
+   -moz-opacity: 0.5;
+   opacity:.5;
+   filter: alpha(opacity=50);
+}
+
+/* treeMenu */
+.x-treelist-nav .x-treelist-item-expanded {
+    background-color: rgba(0,0,0,0) !important;
+}
+
+.x-treelist-nav .x-treelist-item-selected > .x-treelist-row {
+    background-color: rgba(255,255,255,0.10) !important;
+}
+
+.x-treelist-nav .x-treelist-row-over{
+    background-color: rgba(255,255,255,0.20) !important;
+}
+
+.x-treelist-nav .x-treelist-toolstrip {
+    background-color: rgba(0,0,0,0) !important;
+}
+
+/* solution for UNG-2836 */
+.x-grid-view,
+.x-tree-view {
+    z-index: auto !important;
+}
+
+.x-file-area {
+  border: 3px dashed #000;
+  opacity: 0.5;  
+}
+
+.x-file-area input{
+  font-size: 12px;
+}
+.x-file-area .x-btn-inner-default-small {
+  color: #000 !important;
+  font-size: 16px;
+  font-weight: bold;
+}
+.x-file-area-over {
+  opacity: 1.0 !important;  
+}
+

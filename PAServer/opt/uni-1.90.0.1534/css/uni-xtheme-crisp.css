@@ -1,0 +1,97 @@
+.unigui_theme {
+		border-left-width: 1px;
+		border-bottom-width: 1px;
+		borderless-border-width: 1px;
+		window-header-height: 36px;
+		tab-header-height: 40px;
+		tab-border-width: 2px;
+		panel-header-height: 36px;
+		panel-header-width: 36px;
+		menu-band-height: 32px;
+		calendar-form-width: 226px;
+		calendar-form-height: 294px;
+		theme-borderless: true;
+		default-edit-height: 24px;
+}
+
+.x-theme-color {
+  background-color:#eee;
+  border-color: white #bbb #bbb	 white !important;
+}
+
+.x-grid-row .x-grid-cell-selected {
+  background-color: #b8cfee !important;
+}
+
+.x-btn-default-small .x-btn-inner {
+  font:normal 12px tahoma, arial, helvetica, sans-serif;
+}
+.x-btn-default-medium .x-btn-inner {
+  font:normal 12px tahoma, arial, helvetica, sans-serif;
+}
+.x-btn-default-large .x-btn-inner {
+  font:normal 12px tahoma, arial, helvetica, sans-serif;
+}
+.x-btn-inner-default-toolbar-small {
+  font:normal 12px tahoma, arial, helvetica, sans-serif;
+}
+.x-btn-inner-default-toolbar-medium {
+  font:normal 12px tahoma, arial, helvetica, sans-serif;
+}
+.x-btn-inner-default-toolbar-large {
+  font:normal 12px tahoma, arial, helvetica, sans-serif;
+}
+
+.x-btn-default-toolbar-small {
+  padding: 0px !important;
+  font:normal 12px tahoma, arial, helvetica, sans-serif !important;
+}
+
+.x-btn-default-small {
+  padding: 0px !important;
+}
+
+.x-form-trigger-btn {
+  background-image: none !important;
+  padding-top: 3px;
+}
+
+.x-form-trigger-font-btn {
+  background-image: none !important;
+  padding-top: 3px;
+  vertical-align: inherit;
+  line-height: inherit;
+}
+
+.x-panel-default {
+    border-color: #ddd;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+}
+
+.x-grid-inner-normal.x-panel-default {
+  	border-style: none;
+}
+
+.x-grid-header-ct  {
+    border-width: 0px !important;
+ 		border-bottom-width: 1px !important;
+		border-top-width: 1px !important;
+}
+
+.x-panel-body-default {
+    border-width: 0px !important;
+}
+
+.x-uni-checkcolumn-text {
+	padding-left: 14px;
+}
+
+.x-window-default {
+	border-color: #ddd;
+}
+
+.x-form-textarea {
+	min-height: 10px !important;
+}

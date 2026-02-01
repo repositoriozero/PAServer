@@ -1,0 +1,15 @@
+/* common for uni custom themes */
+/* in future it must be moved to uni CSS of each theme separately */
+/*
+.x-form-trigger-btn {
+  background-image: none !important;
+  background: linear-gradient(#fff, #ddd) !important;
+  border-radius: 1px 3px 0px 0px; 
+	border: 1px solid #bbb !important;
+  padding-top: 1px;
+}
+*/
+
+.x-uni-checkcolumn-text {
+	padding-left: 14px;
+}

@@ -1,0 +1,48 @@
+.unigui_theme {
+    mobile-band-height : 59px;
+    mobile-border-width : 1px;
+    panel-header-height: 48px;
+    default-edit-height: 24px;
+    tab-header-height: 48px;
+}
+
+.unigui_theme_big {
+    mobile-band-height : 64px;
+    mobile-border-width : 1px;
+    panel-header-height: 64px;
+    default-edit-height: 36px;
+    tab-header-height: 48px;
+}
+
+.x-uni-window {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #999;
+  box-shadow: 1px 1px 1px 2px #bbb;
+  border-radius: 4px;  
+}
+
+.x-uni-window-header
+{
+  background-color: #eee;
+  color: #333;
+}
+
+.x-uni-window-header .x-title
+{
+  background-color: transparent;
+  color: #333;
+}
+
+
+.x-button 
+{
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ddd;
+  box-shadow: 0px 0px 1px #ccc;
+}
+
+
+
+
